@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Lavarava</string>
+	<key>Builder Version</key>
+	<string>10600.5.17</string>
+	<key>CFBundleDisplayName</key>
+	<string>LivaRava</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.Livarava.safari.livarava</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.3</string>
+	<key>CFBundleVersion</key>
+	<string>0.3</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<real>5242880</real>
+		<key>Global Page</key>
+		<string>global.html</string>
+		<key>Popovers</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>add-form.html</string>
+				<key>Height</key>
+				<real>325</real>
+				<key>Identifier</key>
+				<string>myPopover</string>
+				<key>Width</key>
+				<real>353</real>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>myToolbarID</string>
+				<key>Identifier</key>
+				<string>myToolbarID</string>
+				<key>Image</key>
+				<string>Icon-64.png</string>
+				<key>Label</key>
+				<string>LivaRava</string>
+				<key>Palette Label</key>
+				<string>LivaRava</string>
+				<key>Popover</key>
+				<string>myPopover</string>
+				<key>Tool Tip</key>
+				<string>LivaRava extension</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>add-menu.js</string>
+				<string>closePanel.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>The extension allows you to easily adds information to Livarava</string>
+	<key>DeveloperIdentifier</key>
+	<string>49345THCM6</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://livarava.com/static/livarava/browser-extensions/safari/0.3/manifest.plist</string>
+	<key>Website</key>
+	<string>http://www.livarava.com</string>
+</dict>
+</plist>
